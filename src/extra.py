@@ -167,10 +167,10 @@ DATA_URL_TRAIN_DATA    = 'http://yann.lecun.com/exdb/mnist/train-images-idx3-uby
 DATA_URL_TRAIN_LABELS  = 'http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz'
 DATA_URL_TEST_DATA     = 'http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz'
 DATA_URL_TEST_LABELS   = 'http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz'
-DATA_FILE_TRAIN_DATA   = 'train_data.gz'
-DATA_FILE_TRAIN_LABELS = 'train_labels.gz'
-DATA_FILE_TEST_DATA    = 'test_data.gz'
-DATA_FILE_TEST_LABELS  = 'test_labels.gz'
+DATA_FILE_TRAIN_DATA   = 'data/train_data.gz'
+DATA_FILE_TRAIN_LABELS = 'data/train_labels.gz'
+DATA_FILE_TEST_DATA    = 'data/test_data.gz'
+DATA_FILE_TEST_LABELS  = 'data/test_labels.gz'
 
 # training data
 BATCH_SIZE               = 30 # The batch size needs to be an even divisor of the training data
